@@ -2,7 +2,6 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -14,4 +13,9 @@ body {
 
   color: #fff;
   background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
+}
+
+* {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
 }
